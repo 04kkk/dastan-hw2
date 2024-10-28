@@ -1,0 +1,165 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.res {
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(202, 67, 26);
+    padding: 10px 23px;
+    border-radius: 10px;
+}
+
+body {
+
+    transition: 350ms;
+}
+
+.box {
+    text-align: center;
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.plus{
+    margin: 0;
+    margin-top: 15px;
+    width: 120px;
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+}
+.minus{
+    margin: 0;
+    margin-top: 15px;
+    width: 120px;
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+
+}
+.del{
+    margin: 0;
+    margin-top: 15px;
+    width: 120px;
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+}
+.umno{
+    margin: 0;
+    margin-top: 15px;
+    width: 120px;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    background-color: orangered;
+    border-radius: 20px;
+}
+.buttons {
+    max-width: 50%;
+    
+}
+
+
+.number-1 , .number-2{
+    padding: 10px 36px;
+    display: flex;
+
+    border-radius: 20px;
+    border: none;
+    border: 1.5px solid orangered;
+}
+
+.wrap-df {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+.resault {
+
+    margin-top: 15px;
+    width: 120px;
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+}
+
+
+.btn1, .btn2 {
+    padding: 10px 35px;
+    border: none;
+    border: 1.5px solid orangered;
+    background: none;
+    border-radius: 15px;
+
+}
+
+.input {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#inputField, #buttonField {
+    border: none;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    padding: 10px 25px;
+    background: none;
+    font-weight: bold;
+
+}
+
+.score-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.item-btn {
+    margin-left: 250px;
+    padding: 10px 35px;
+    border: none;
+    border: 1.5px solid orangered;
+    background: none;
+    border-radius: 15px;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.element {
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+.element__btn, .input__box, .btn__box{
+
+    padding: 10px 35px;
+    border: none;
+    border: 1.5px solid orangered;
+    background: none;
+    border-radius: 15px;
+}
